@@ -4,5 +4,11 @@ export interface IIngredient {
   image: string;
 }
 
+interface IIngredientForState {
+  name: string;
+  count: number;
+}
+
+
 
 
